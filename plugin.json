@@ -1,0 +1,21 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "meme-studio-mcp",
+  "version": "1.0.0",
+  "description": "Connects the agent to Meme Studio's MCP server: finds the meme templates that fit a joke, with what goes in each caption slot, and makes the finished meme (an animated GIF for animated templates) plus a link to edit it in the browser.",
+  "author": {
+    "name": "MrHydeDev",
+    "url": "https://github.com/MrHydeDev"
+  },
+  "homepage": "https://memes.mrhyde.dev/en/",
+  "repository": "https://github.com/MrHydeDev/meme-studio-mcp-plugin",
+  "license": "MIT",
+  "keywords": ["memes", "meme-generator", "gif", "images", "mcp"],
+  "extensions": {
+    "com.nousresearch.hermes": {
+      "servers": {
+        "meme-studio": { "trust": "untrusted" }
+      }
+    }
+  }
+}
