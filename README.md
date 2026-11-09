@@ -30,7 +30,7 @@ templates), plus a link to tweak it and download it in the editor.
 
 ### `hyde@sunnydale:~$` hermes plugins install meme-studio-mcp
 
-Once the plugin is in the [Hermes](https://hermes-agent.nousresearch.com) catalog:
+From the [Hermes](https://hermes-agent.nousresearch.com) plugin catalog:
 
 ```bash
 hermes plugins install meme-studio-mcp
